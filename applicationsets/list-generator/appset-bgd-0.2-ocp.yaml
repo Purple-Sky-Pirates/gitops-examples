@@ -9,7 +9,7 @@ spec:
       elements:
       # v0.2.0+ form - does not require cluster/URL keys (but are still supported)
       - overlay: blue
-        gitRepo: https://github.com/christianh814/gitops-examples
+        gitRepo: https://github.com/Purple-Sky-Pirates/gitops-examples
         appPath: applicationsets/list-generator/v0.2/ocp/overlays
         appBranch: master
       - overlay: green

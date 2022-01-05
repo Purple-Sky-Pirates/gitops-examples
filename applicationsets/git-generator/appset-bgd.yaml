@@ -6,7 +6,7 @@ metadata:
 spec:
   generators:
   - git:
-      repoURL: https://github.com/christianh814/gitops-examples
+      repoURL: https://github.com/Purple-Sky-Pirates/gitops-examples
       revision: master
       files:
       - path: "applicationsets/git-generator/cluster-config/**/config.json"
@@ -20,7 +20,7 @@ spec:
           prune: true
           selfHeal: true
       source:
-        repoURL: https://github.com/christianh814/gitops-examples
+        repoURL: https://github.com/Purple-Sky-Pirates/gitops-examples
         targetRevision: master
         path: applicationsets/git-generator/overlays/{{cluster.overlay}}
       destination:

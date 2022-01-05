@@ -10,7 +10,7 @@ spec:
         generators:
           # git generator, 'child' #1
           - git:
-              repoURL: https://github.com/christianh814/gitops-examples
+              repoURL: https://github.com/Purple-Sky-Pirates/gitops-examples
               revision: master
               directories:
               - path: applicationsets/git-dir-generator/apps/*
@@ -29,7 +29,7 @@ spec:
           prune: true
           selfHeal: true
       source:
-        repoURL: https://github.com/christianh814/gitops-examples
+        repoURL: https://github.com/Purple-Sky-Pirates/gitops-examples
         targetRevision: master
         path: '{{path}}'
       destination:

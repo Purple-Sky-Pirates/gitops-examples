@@ -9,7 +9,7 @@ spec:
     server: https://kubernetes.default.svc
   project: default
   source:
-    repoURL: https://github.com/christianh814/gitops-examples/
+    repoURL: https://github.com/Purple-Sky-Pirates/gitops-examples/
     path: storageops/statefulapp
     targetRevision: master
   syncPolicy:

@@ -23,7 +23,7 @@ spec:
           prune: true
           selfHeal: true
       source:
-        repoURL: https://github.com/christianh814/gitops-examples
+        repoURL: https://github.com/Purple-Sky-Pirates/gitops-examples
         targetRevision: master
         path: applicationsets/list-generator/v0.1/overlays/{{cluster}}
       destination:

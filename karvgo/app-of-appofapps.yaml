@@ -10,7 +10,7 @@ spec:
   project: default
   source:
     path: karvgo/cluster-config
-    repoURL: https://github.com/christianh814/gitops-examples
+    repoURL: https://github.com/Purple-Sky-Pirates/gitops-examples
     targetRevision: master
   syncPolicy:
     automated:
