@@ -10,6 +10,7 @@ metadata:
   annotations:
     argocd.argoproj.io/sync-wave: "6"
 spec:
+  type: LoadBalancer
   ports:
   - port: 8080
     protocol: TCP
