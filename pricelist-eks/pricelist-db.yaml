@@ -45,5 +45,4 @@ spec:
           name: mysql-db
       volumes:
       - name: mysql-db
-        persistentVolumeClaim:
-          claimName: pricelist-db-pvc
+        emptyDir: {}
