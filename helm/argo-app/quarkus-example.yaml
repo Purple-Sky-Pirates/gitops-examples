@@ -19,7 +19,7 @@ spec:
         - name: image.name
           value: quay.io/swinches/gitops-helm-quarkus
         - name: image.tag
-          value: "latest"
+          value: "1.0"
     chart: quarkus
     repoURL: https://redhat-developer.github.io/redhat-helm-charts
     targetRevision: 0.0.3
