@@ -8,3 +8,5 @@ resources:
 - pricelist-job.yaml
 - pricelist-route.yaml
 - pricelist-svc.yaml
+- pricelist-spurious-svc.yaml
+
