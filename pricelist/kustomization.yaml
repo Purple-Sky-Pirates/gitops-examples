@@ -6,6 +6,5 @@ resources:
 - pricelist-db.yaml
 - pricelist-deploy.yaml
 - pricelist-job.yaml
-- pricelist-quota.yaml
 - pricelist-route.yaml
 - pricelist-svc.yaml
